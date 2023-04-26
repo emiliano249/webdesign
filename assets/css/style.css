@@ -1561,7 +1561,9 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+
+/* Saque .php-email-form emi para que la clase muestre el boton verde y no gris */
+.contact button[type=submit] {
   background: #0cc342;
   border: 0;
   padding: 12px 34px;
@@ -1570,7 +1572,7 @@ section {
   border-radius: 50px;
 }
 /* casi todos los botones hover emi verde oocuro */
-.contact .php-email-form button[type=submit]:hover {
+.contact button[type=submit]:hover {
   background: #0b6123;
 }
 
