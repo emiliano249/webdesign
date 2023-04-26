@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Arsha Bootstrap Template - Index</title>
+  <title>WEB Design - Index</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -45,13 +45,7 @@
 
 
 
-
-
-
-
-
-
-
+<!-- codigo para enviar email enlazado con index.js  -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
   </script>
   <script type="text/javascript">
@@ -59,22 +53,6 @@
       emailjs.init("S6LbQaAcjP2plaNhK");
     })();
   </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </head>
@@ -85,7 +63,7 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">Arsha</a></h1>
+      <h1 class="logo me-auto"><a href="index.html">WEB Design</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -105,7 +83,7 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -120,12 +98,12 @@
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
           data-aos="fade-up" data-aos-delay="200">
-          <h1>Better Solutions For Your Business</h1>
-          <h2>We are team of talented designers making websites with Bootstrap</h2>
+          <h1>We create Future Proof Websites for aspiring brands.</h1>
+          <h2>We are a team of talented designers who make websites of all kinds</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="#about" class="btn-get-started scrollto">Get Started</a>
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i
-                class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i
+                class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
@@ -729,50 +707,43 @@
 
     <!-- ======= Contact Section ======= -->
 
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
 
-
-
-
-
-
-
-
-
-    <div class="container border mt-3 bg-light">
-      <div class="row">
-        <!-- <div class="col-md-6 p-5 bg-primary text-white">
-          <h1>Hi there!</h1>
-          <h4>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo,
-          </h4>
-        </div> -->
-        <div class="col-md-12 border-left py-3">
-          <h1>Contact form</h1>
-          <div class="form-group">
-            <h5 for="name">Name</h5>
-            <input type="text" class="form-control" id="name" placeholder="Enter name" />
-          </div>
-          <div class="form-group">
-            <h5 for="email">Email</h5>
-            <input type="email" class="form-control" id="email" placeholder="Enter email" />
-          </div>
-          <div class="form-group">
-            <h5 for="message">Message</h5>
-            <textarea class="form-control" id="message" rows="3"></textarea>
-          </div>
-          <button class="btn btn-primary" onclick="sendMail()">Submit</button>
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
         </div>
+        <div class="row">
+          <div class="col-md-12 border-left py-3">
+            <!-- <h1>Contact form</h1> -->
+            <div class="form-group">
+              <!-- <h5 for="name">Name</h5> -->
+              <p>Name</p>
+              <input type="text" class="form-control" id="name" placeholder="Enter name" />
+              <br>
+            </div>
+            <div class="form-group">
+              <!-- <h5 for="email">Email</h5> -->
+              <p>e-mail</p>
+              <input type="email" class="form-control" id="email" placeholder="Enter e-mail" />
+              <br>
+            </div>
+            <div class="form-group">
+              <!-- <h5 for="message">Message</h5> -->
+              <p>Message</p>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <!-- <button class="btn btn-primary" onclick="sendMail()">Submit</button> -->
+            <br>
+            <div class="text-center"><button type="submit" onclick="sendMail()">Send Message</button></div>
+          </div>
+        </div>
+
       </div>
-    </div>
-
-
-
-
-
-
-
-
-
+    </section>
 
 
 
@@ -783,7 +754,7 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
-    <div class="footer-newsletter">
+    <!-- <div class="footer-newsletter">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6">
@@ -795,20 +766,20 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="footer-top">
       <div class="container">
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Arsha</h3>
+            <h3>WEB Design</h3>
             <p>
               A108 Adam Street <br>
               New York, NY 535022<br>
               United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Phone:</strong> +54 9 2617035937<br>
+              <strong>Email:</strong> info@webdesign.com<br>
             </p>
           </div>
 
@@ -871,8 +842,6 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-
 
 
   <!-- Emi agregado -->
