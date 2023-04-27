@@ -269,7 +269,8 @@ h6 {
 */
 .mobile-nav-toggle {
   color: #fff;
-  font-size: 28px;
+  /* estaba en 28px el icono amburguesa */
+  font-size: 30px;
   cursor: pointer;
   display: none;
   line-height: 0;
@@ -325,7 +326,7 @@ h6 {
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 25px;
   color: #007520;
 }
 
