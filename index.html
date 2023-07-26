@@ -69,6 +69,10 @@
 
 </head>
 
+  <!-- cookies https://www.osano.com/cookieconsent/download/ -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+
 <body>
 
   <!-- ======= Header ======= -->
@@ -1019,5 +1023,29 @@
 
 
 </body>
+
+
+ <!-- cookies https://www.osano.com/cookieconsent/download/ -->
+ <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+ <script>
+ window.cookieconsent.initialise({
+   "palette": {
+     "popup": {
+       "background": "#000"
+     },
+     "button": {
+       "background": "#0cc342"
+     }
+   },
+   "theme": "classic",
+   "position": "bottom-right",
+   "content": {
+     "message": "This website uses cookies to ensure that you get the best experience on our website.",
+     "dismiss": "Ok!",
+     "link": "Learn more"
+   }
+ });
+ </script>
+
 
 </html>
