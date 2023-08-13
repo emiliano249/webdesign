@@ -397,6 +397,36 @@ h6 {
   color: #fff;
 }
 
+/*--------------------------------------------------------------
+# Agregado emi para titlo h1 pagina logo
+--------------------------------------------------------------*/
+
+.section-title h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  color: #007520;
+}
+
+.section-titleLogo h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  color: #007520;
+}
+
+
+
+
+
+
 #hero h2 {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 50px;
@@ -542,6 +572,7 @@ section {
   left: calc(50% - 60px);
 }
 
+
 .section-title h2::after {
   content: "";
   position: absolute;
@@ -582,6 +613,44 @@ section {
   .clients img {
     max-width: 40%;
   }
+}
+
+
+
+/*--------------------------------------------------------------
+# emi logos pagina logos
+--------------------------------------------------------------*/
+.clientsLogos {
+  padding: 12px 0;
+  text-align: center;
+}
+
+.clientsLogos img {
+  max-width: 40%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  filter: grayscale(100);
+}
+
+.clientsLogos img:hover {
+  filter: none;
+  transform: scale(1.3);
+}
+
+@media (max-width: 768px) {
+  .clientsLogos img {
+    max-width: 50%;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# emi video para pagina logo
+--------------------------------------------------------------*/
+
+.video {
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
