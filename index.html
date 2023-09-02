@@ -69,6 +69,10 @@
   </script> -->
 
 
+
+  <!-- cuanta atras oferta -->
+  <!-- <link href="styleCuentaAtras.css" rel="stylesheet"> -->
+
 </head>
 
 <!-- cookies https://www.osano.com/cookieconsent/download/ -->
@@ -759,16 +763,64 @@
 
         <div class="section-title">
           <h2>Pricing</h2>
-          <p>Only 1 payment and no monthly charges. These prices may vary according to your needs.</p>
+          <h5>
+            <p>Limited time offer.</p>
+
+
+            <p id="demo"></p>
+
+            <script>
+              // Set the date we're counting down to
+              var countDownDate = new Date("Nov 5, 2023 15:37:25").getTime();
+
+              // Update the count down every 1 second
+              var x = setInterval(function () {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Display the result in the element with id="demo"
+                document.getElementById("demo").innerHTML = days + " Days " + hours + " Hours "
+                  + minutes + " Minutes " + seconds + " Seconds ";
+
+                // If the count down is finished, write some text
+                if (distance < 0) {
+                  clearInterval(x);
+                  document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+              }, 1000);
+            </script>
+          </h5>
+
         </div>
+
+
+
+
+
+
+
+
 
         <div class="row">
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="box">
               <h3>Basic</h3>
+              <h5 class="text-muted"><s> $599</s> </h5>
               <h4><sup>$</sup>299<span>One page website with up to 4 sections</span></h4>
+
               <ul>
+                <li><i class="bx bx-check"></i> Only 1 payment and no monthly charges. </li>
                 <li><i class="bx bx-check"></i> First year domain free </li>
                 <li><i class="bx bx-check"></i> Hosting included for 1 year</li>
                 <li><i class="bx bx-check"></i> Search Engine Submission</li>
@@ -785,8 +837,10 @@
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
             <div class="box featured">
               <h3>Business Plan</h3>
+              <h5 class="text-muted"><s> $1198</s> </h5>
               <h4><sup>$</sup>599<span>Up to 2 pages and 4 sections per page</span></h4>
               <ul>
+                <li><i class="bx bx-check"></i> Only 1 payment and no monthly charges. </li>
                 <li><i class="bx bx-check"></i> First year domain free </li>
                 <li><i class="bx bx-check"></i> Hosting included for 1 year</li>
                 <li><i class="bx bx-check"></i> Search Engine Submission</li>
@@ -803,8 +857,10 @@
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="box">
               <h3>E-commerce</h3>
+              <h5 class="text-muted"><s> $3998</s> </h5>
               <h4><sup>$</sup>1999<span>Up to 10 products & 3 pages</span></h4>
               <ul>
+                <li><i class="bx bx-check"></i> Only 1 payment and no monthly charges. </li>
                 <li><i class="bx bx-check"></i> First year domain free </li>
                 <li><i class="bx bx-check"></i> Hosting included for 1 year</li>
                 <li><i class="bx bx-check"></i> Search Engine Submission</li>
@@ -1058,7 +1114,8 @@
   <script src="index.js"></script>
 
 
-
+  <!-- cuenta atras oferta -->
+  <!-- <script src="jsCuentaAtras.js"></script> -->
 
 
 
