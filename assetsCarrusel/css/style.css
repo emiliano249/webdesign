@@ -1,7 +1,7 @@
 
 
 /*--------------------------------------------------------------
-# Testimonials
+# Testimonials y por que elegirnos
 --------------------------------------------------------------*/
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
@@ -30,7 +30,7 @@
   font-size: 18px;
   font-weight: bold;
   margin: 25px 0 5px 0;
-  color: #007520;
+  color: #325eaa;
   /* text-align: center; */
 }
 
@@ -59,9 +59,9 @@
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #007520;
+  border: 1px solid #325eaa;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #007520;
+  background-color: #325eaa;
 }
