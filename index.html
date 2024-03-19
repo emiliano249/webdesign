@@ -62,18 +62,6 @@
   <link href="assetsCarrusel/css/style.css" rel="stylesheet">
 
 
-
-  <!-- codigo para enviar email enlazado con index.js  -->
-  <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-  </script>
-  <script type="text/javascript">
-    (function () {
-      emailjs.init("S6LbQaAcjP2plaNhK");
-    })();
-  </script> -->
-
-
-
   <!-- cuanta atras oferta -->
   <!-- <link href="styleCuentaAtras.css" rel="stylesheet"> -->
 
@@ -81,7 +69,7 @@
 
 
   <!-- Meta Pixel Code -->
-  <script>
+  <!-- <script>
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
         n.callMethod ?
@@ -97,18 +85,48 @@
     fbq('track', 'PageView');
   </script>
   <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1606641143497470&ev=PageView&noscript=1" /></noscript>
+      src="https://www.facebook.com/tr?id=1606641143497470&ev=PageView&noscript=1" /></noscript> -->
   <!-- End Meta Pixel Code -->
 
 
 
-  <meta name="facebook-domain-verification" content="3abieecda9n37193gl1055rcpqvvxt" />
+  <!-- <meta name="facebook-domain-verification" content="3abieecda9n37193gl1055rcpqvvxt" /> -->
+
+
+
+
+
+  <!-- traductorde google -->
+
+  <!-- <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+    }
+  </script> -->
+
+
+
+
+
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en', // Change this to your website's default language
+        // includedLanguages: 'en,es,fr', // List of languages to offer for translation
+        // layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false
+      }, 'google_translate_element');
+    }
+
+  </script>
 
 
 
 
 
 
+  <script type="text/javascript"
+    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 
 
@@ -150,6 +168,7 @@
           class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
+        <br><br><br>
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
@@ -165,9 +184,13 @@
               <!-- <li><a href="#">Video Marketing</a></li> -->
             </ul>
           </li>
+          <!-- <li>
+            <div id="google_translate_element"></div>
+          </li> -->
           <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
+
       </nav><!-- .navbar -->
 
     </div>
@@ -180,9 +203,12 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
 
+
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
       <div class="row">
 
+        <div id="google_translate_element"></div>
+        <br><br><br><br><br><br><br><br><br><br>
         <div>
           <h2>We create future proof websites for ambitious brands</h2>
         </div>
@@ -197,9 +223,9 @@
           <a href="#about" class="btn-get-started ">Explore More</a>
         </div>
       </div>
+      <br><br><br><br><br><br><br><br>
+    </div>
 
-    </div>
-    </div>
 
   </section>
   <!-- End Hero -->
