@@ -1160,8 +1160,9 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 
-  /* Boton Explorar mas */
+  /* Boton Explorar mas Emiliano */
 .portfolio .btn-get-started {
+
   background: #47b2e4;
   border: 0;
   padding: 12px 34px;
@@ -1225,7 +1226,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 18px;
+  font-size: 15px;
   color: #fff;
   font-weight: 600;
   color: #fff;
